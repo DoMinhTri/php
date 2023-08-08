@@ -1,9 +1,3 @@
-<?php 
-include("../inc/connect.php");
-include("../inc/user_session_1.php");
-$quyen = $_SDMT_LayQuyen;
-if($quyen != "admin"){ header("Location: ../index.php"); }
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
